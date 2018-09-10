@@ -23,7 +23,7 @@ The application can be started by running `application.py`. This relies on the f
 Most of modules come with standard python installation and if necessary can use `pip` to install. The installation of `PyQt` on different operating systems are given in the following subsections. Alternately, more information can be found [here](https://www.tutorialspoint.com/pyqt/pyqt_introduction.htm).
 
 ### Windows 
-You can find source packages [here](https://riverbankcomputing.com/software/pyqt/download) for linux, MAC OS and Windows. The binary packages are no longer available. Altenately, there are windows wheel packages [available](https://stackoverflow.com/questions/22640640/how-to-install-pyqt4-on-windows-using-pip) for download. More information are given in this [answer](https://stackoverflow.com/questions/22640640/how-to-install-pyqt4-on-windows-using-pip), where you can essentially use `pip` to install `PyQt4`. Example is shown below:
+You can find source packages [here](https://riverbankcomputing.com/software/pyqt/download) for linux, MAC OS and Windows. The binary packages are no longer available. Altenately, there are windows wheel packages [available](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4) for download. More information are given in this [answer](https://stackoverflow.com/questions/22640640/how-to-install-pyqt4-on-windows-using-pip), where you can essentially use `pip` to install `PyQt4`. Example is shown below:
 ```
 C:\path\where\wheel\is\> pip install PyQt4-4.11.4-cp35-none-win_amd64.whl
 ```
