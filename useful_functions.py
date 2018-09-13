@@ -308,8 +308,9 @@ def gen_master_file(setting_dict, format_file, chapter_dict, appendix_list, prel
                         text += r'\input{' + setting_dict['prelim_folder'][1:] + "/"  + t  + "}\n"
                 elif counter == 3: #here put the chapers and subchapters in
                     for chapter, sub_chapters in chapter_dict.items():
+                        text += r'\graphicspath{{' + chapter + "/" + setting_dict['img_sub'] + "/}}\n"
                         for sub_chapter in sub_chapters:
-                            text += r'\include{' + chapter + "/" + setting_dict['latex_sub'] + "/" + sub_chapter.split(".tex")[0] + "}\n"
+                            text += r'\input{' + chapter + "/" + setting_dict['latex_sub'] + "/" + sub_chapter.split(".tex")[0] + "}\n"
                             
                         text += "\n"
                     
