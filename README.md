@@ -5,10 +5,11 @@ This is an application using PyQt for organizing thesis chapters, sub-chapters a
 - Saving and loading the format file
 - Generating a list of appendix files based on the cross-references in the dictionary of chapters and sub-chapters
 
+Try jumping to this [tith](#tith)
 ## Some Definitions
 The definitions are given to the components of 
 
-## Installation instruction
+## <a name="tith"></a> Installation instruction
 The application can be started by running `application.py`. This relies on the following imports:
 + `sys`
 + `PyQt4`
